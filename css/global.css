@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #fff;
+}
