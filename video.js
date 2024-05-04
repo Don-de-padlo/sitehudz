@@ -56,7 +56,7 @@ function stopVideo() {
 }
 
 // Event listeners
-video.body.addEventListener('click', toggleVideoStatus);
+video.addEventListener('click', toggleVideoStatus);
 video.addEventListener('pause', updatePlayIcon);
 video.addEventListener('play', updatePlayIcon);
 video.addEventListener('timeupdate', updateProgress);

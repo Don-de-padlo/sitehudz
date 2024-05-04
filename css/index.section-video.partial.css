@@ -2,14 +2,7 @@
     background: url("../img/Ellipse\ 3.svg");
     
 }
-.background_content{
-    background-image: url("../img/background.jpg");
-    background-size: cover;
-    width: 100%;
-    min-height: 100px;
-    height: 40vh;
-    background-color: #dc3545;
-}
+
 .screen {
   cursor: pointer;
   width: 100%;

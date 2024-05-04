@@ -1,0 +1,108 @@
+.background_content {
+  display: flex;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 60vh;
+  background-color: #dc3545;
+  flex-direction: column;
+}
+.navbar {
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 60px 0 60px;
+}
+.header__logo{
+    margin-right: 60px;
+}
+.header__logo img {
+  height: 40px;
+  width: 120px;
+}
+.social_media {
+  display: flex;
+  justify-content: space-between;
+}
+.social_media__item {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+.social_media__item img {
+  height: 20px;
+  width: 20px;
+}
+.desktop_menu {
+    display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content:center;
+}
+.text_link {
+    margin-left: 20px;
+  min-width: 40px;
+  min-height: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.header__text {
+  font-size: 12px;
+  margin: 60px auto;
+  text-align: center;
+  color: whitesmoke;
+}
+.header__text h1{
+    font-size: 74px;
+    font-weight: 700;
+}
+.header__text h4{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.header__btn {
+  align-items: center;
+  appearance: none;
+  background-color: #2091F9;
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.header__btn:active,
+.header__btn:focus {
+  outline: none;
+}
+
+.header__btn:hover {
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+}
+
+.header__btn:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
